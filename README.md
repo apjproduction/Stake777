@@ -13,7 +13,7 @@ To use Stake777 in your project, you can install it via npm:
 
 Usage
 
-<div class="highlight highlight-source-json notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="{  &quot;npm install stake777&quot; }"><pre>{  <span class="pl-ent">"npm install stake777"</span>: <span class="pl-s"><span class="pl-pds"></span></span> }</pre></div>
+<div class="highlight highlight-source-json notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="{  &quot;const stake777 = require('stake777');&quot; }"><pre>{  <span class="pl-ent">"const stake777 = require('stake777');"</span>: <span class="pl-s"><span class="pl-pds"></span></span> }</pre></div>
 
 const stake777 = require('stake777');
 
@@ -43,37 +43,6 @@ stake777.getStakedNFTs()
     })
     .catch((error) => {
         console.error('Error getting staked NFTs:', error);
-    });
-
-
-const stake777 = require('stake777');
-
-// Example usage:
-// Stake an NFT
-stake777.stakeNFT(nftId, amount)
-    .then(() => {
-        console.log('\x1b[47m\x1b[30m%s\x1b[0m', 'NFT staked successfully!'); // Grey background with black text for success message
-    })
-    .catch((error) => {
-        console.error('\x1b[41m\x1b[37m%s\x1b[0m', 'Error staking NFT:', error); // Red background with white text for error message
-    });
-
-// Withdraw staked NFT
-stake777.unstakeNFT(nftId)
-    .then(() => {
-        console.log('\x1b[47m\x1b[30m%s\x1b[0m', 'NFT unstaked successfully!'); // Grey background with black text for success message
-    })
-    .catch((error) => {
-        console.error('\x1b[41m\x1b[37m%s\x1b[0m', 'Error unstaking NFT:', error); // Red background with white text for error message
-    });
-
-// Get staked NFTs
-stake777.getStakedNFTs()
-    .then((stakedNFTs) => {
-        console.log('\x1b[47m\x1b[30m%s\x1b[0m', 'Staked NFTs:', stakedNFTs); // Grey background with black text for success message
-    })
-    .catch((error) => {
-        console.error('\x1b[41m\x1b[37m%s\x1b[0m', 'Error getting staked NFTs:', error); // Red background with white text for error message
     });
 
 
