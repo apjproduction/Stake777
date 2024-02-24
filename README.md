@@ -6,13 +6,15 @@ Features
 * Stake NFTs: Stake your Non-Fungible Tokens (NFTs) into the staking pool to earn rewards.
 * Earn Rewards: Users earn rewards based on the duration and quantity of NFTs staked in the pool.
 * Flexible Withdrawals: Withdraw your staked NFTs at any time, subject to withdrawal rules and penalties.
-* Installation
-* To use Stake777 in your project, you can install it via npm:
+
+ <h3>Installation</h3>
+
+ <p>To use Stake777 in your project, you can install it via npm:</p>
 
 <div class="highlight highlight-source-json notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="{  &quot;npm install stake777&quot; }"><pre>{  <span class="pl-ent">"npm install stake777"</span>: <span class="pl-s"><span class="pl-pds"></span></span> }</pre></div>
 
 
-Usage
+<h4>Usage</h4>
 
 <div class="highlight highlight-source-json notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="{  &quot;const stake777 = require('stake777');&quot; }"><pre>{  <span class="pl-ent">"const stake777 = require('stake777');"</span>: <span class="pl-s"><span class="pl-pds"></span></span> }</pre></div>
 
@@ -68,12 +70,12 @@ Usage
 
 
     
-Contributing
-Contributions are welcome! Feel free to open issues or pull requests for any improvements or bug fixes.
+<h4>Contributing</h4>
+<p>Contributions are welcome! Feel free to open issues or pull requests for any improvements or bug fixes.</p>
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+<h4>License</h4>
+<p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
 
-Acknowledgments
-Special thanks to the contributors of web3.js for Ethereum interaction.
-Inspired by the concept of staking pools for blockchain assets.
+<h4>Acknowledgments</h4>
+<p>Special thanks to the contributors of web3.js for Ethereum interaction.
+Inspired by the concept of staking pools for blockchain assets.</p>
