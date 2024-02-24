@@ -1,12 +1,13 @@
-Stake777 - NFT Staking Pool
-Stake777 is a staking pool designed specifically for Non-Fungible Tokens (NFTs) on blockchain platforms like Ethereum. This staking pool allows users to stake their NFTs and earn rewards based on the duration and quantity of NFTs staked.
+<h2>Stake777 - NFT Staking Pool</h2>
+
+<p>Stake777 is a staking pool designed specifically for Non-Fungible Tokens (NFTs) on blockchain platforms like Ethereum. This staking pool allows users to stake their NFTs and earn rewards based on the duration and quantity of NFTs staked.</p>
 
 Features
-Stake NFTs: Stake your Non-Fungible Tokens (NFTs) into the staking pool to earn rewards.
-Earn Rewards: Users earn rewards based on the duration and quantity of NFTs staked in the pool.
-Flexible Withdrawals: Withdraw your staked NFTs at any time, subject to withdrawal rules and penalties.
-Installation
-To use Stake777 in your project, you can install it via npm:
+* Stake NFTs: Stake your Non-Fungible Tokens (NFTs) into the staking pool to earn rewards.
+* Earn Rewards: Users earn rewards based on the duration and quantity of NFTs staked in the pool.
+* Flexible Withdrawals: Withdraw your staked NFTs at any time, subject to withdrawal rules and penalties.
+* Installation
+* To use Stake777 in your project, you can install it via npm:
 
 <div class="highlight highlight-source-json notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="{  &quot;npm install stake777&quot; }"><pre>{  <span class="pl-ent">"npm install stake777"</span>: <span class="pl-s"><span class="pl-pds"></span></span> }</pre></div>
 
