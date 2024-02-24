@@ -8,12 +8,12 @@ Flexible Withdrawals: Withdraw your staked NFTs at any time, subject to withdraw
 Installation
 To use Stake777 in your project, you can install it via npm:
 
-bash
-Copy code
+
 npm install stake777
+
+
 Usage
-javascript
-Copy code
+
 const stake777 = require('stake777');
 
 // Example usage:
@@ -43,6 +43,8 @@ stake777.getStakedNFTs()
     .catch((error) => {
         console.error('Error getting staked NFTs:', error);
     });
+
+    
 Contributing
 Contributions are welcome! Feel free to open issues or pull requests for any improvements or bug fixes.
 
