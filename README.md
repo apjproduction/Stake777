@@ -8,8 +8,7 @@ Flexible Withdrawals: Withdraw your staked NFTs at any time, subject to withdraw
 Installation
 To use Stake777 in your project, you can install it via npm:
 
-
-npm install stake777
+<div class="highlight highlight-source-json notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="{  &quot;npm install stake777&quot; }"><pre>{  <span class="pl-ent">"npm install stake777"</span>: <span class="pl-s"><span class="pl-pds">"</span>xxxxx<span class="pl-pds">"</span></span> }</pre></div>
 
 
 Usage
