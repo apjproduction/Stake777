@@ -15,10 +15,24 @@ Usage
 
 <div class="highlight highlight-source-json notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="{  &quot;const stake777 = require('stake777');&quot; }"><pre>{  <span class="pl-ent">"const stake777 = require('stake777');"</span>: <span class="pl-s"><span class="pl-pds"></span></span> }</pre></div>
 
-const stake777 = require('stake777');
 
 // Example usage:
 // Stake an NFT
+
+<div class="highlight highlight-source-json notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="{  &quot;stake777.stakeNFT(nftId, amount)
+    .then(() => {
+        console.log('NFT staked successfully!');
+    })
+    .catch((error) => {
+        console.error('Error staking NFT:', error);
+    });&quot; }"><pre>{  <span class="pl-ent">"stake777.stakeNFT(nftId, amount)
+    .then(() => {
+        console.log('NFT staked successfully!');
+    })
+    .catch((error) => {
+        console.error('Error staking NFT:', error);
+    });"</span>: <span class="pl-s"><span class="pl-pds"></span></span> }</pre></div>
+
 stake777.stakeNFT(nftId, amount)
     .then(() => {
         console.log('NFT staked successfully!');
