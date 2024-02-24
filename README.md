@@ -33,31 +33,36 @@ Usage
         console.error('Error staking NFT:', error);
     });"</span>: <span class="pl-s"><span class="pl-pds"></span></span> }</pre></div>
 
-stake777.stakeNFT(nftId, amount)
-    .then(() => {
-        console.log('NFT staked successfully!');
-    })
-    .catch((error) => {
-        console.error('Error staking NFT:', error);
-    });
 
 // Withdraw staked NFT
-stake777.unstakeNFT(nftId)
+<div class="highlight highlight-source-json notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="{  &quot;stake777.unstakeNFT(nftId)
     .then(() => {
         console.log('NFT unstaked successfully!');
     })
     .catch((error) => {
         console.error('Error unstaking NFT:', error);
-    });
+    });&quot; }"><pre>{  <span class="pl-ent">"stake777.unstakeNFT(nftId)
+    .then(() => {
+        console.log('NFT unstaked successfully!');
+    })
+    .catch((error) => {
+        console.error('Error unstaking NFT:', error);
+    });"</span>: <span class="pl-s"><span class="pl-pds"></span></span> }</pre></div>
 
 // Get staked NFTs
-stake777.getStakedNFTs()
+<div class="highlight highlight-source-json notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="{  &quot;stake777.getStakedNFTs()
     .then((stakedNFTs) => {
         console.log('Staked NFTs:', stakedNFTs);
     })
     .catch((error) => {
         console.error('Error getting staked NFTs:', error);
-    });
+    });&quot; }"><pre>{  <span class="pl-ent">"stake777.getStakedNFTs()
+    .then((stakedNFTs) => {
+        console.log('Staked NFTs:', stakedNFTs);
+    })
+    .catch((error) => {
+        console.error('Error getting staked NFTs:', error);
+    });"</span>: <span class="pl-s"><span class="pl-pds"></span></span> }</pre></div>
 
 
 
