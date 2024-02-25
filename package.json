@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["staking", "pool", "NFT"],
+  "keywords": [
+    "staking",
+    "pool",
+    "NFT"
+  ],
   "author": "Gianni (apjproduction@gmail.com)",
   "license": "MIT",
   "dependencies": {
@@ -18,5 +22,13 @@
   "devDependencies": {
     "eslint": "^8.7.0",
     "eslint-config-airbnb-base": "^16.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apjproduction/stake777.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apjproduction/stake777/issues"
+  },
+  "homepage": "https://github.com/apjproduction/stake777#readme"
 }
