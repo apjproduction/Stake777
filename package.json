@@ -20,11 +20,13 @@
     "eslint-config-airbnb-base": "^15.0.0"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/apjproduction/stake777.git"
+  "type": "git",
+  "url": "git+https://github.com/apjproduction/stake777.git",
+  "npm": "https://www.npmjs.com/package/stake777"
+    
   },
   "bugs": {
     "url": "https://github.com/apjproduction/stake777/issues"
   },
-  "homepage": "https://github.com/apjproduction/stake777#readme"
+  "homepage": "https://www.npmjs.com/package/stake777"
 }
