@@ -1,8 +1,4 @@
-{
-  "name": "stake777",
-  "version": "1.0.0",
-  "description": "A staking pool for NFTs",
-  "main": "index.js",
+{ "name": "stake777", "version": "1.1.0", "description": "A staking pool for NFTs", "main": "index.js", 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +8,7 @@
     "NFT"
   ],
   "author": "Gianni (apjproduction@gmail.com)",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "dependencies": {
     "web3": "^1.5.2",
     "ethereumjs-util": "^6.1.0",
@@ -21,7 +17,7 @@
   },
   "devDependencies": {
     "eslint": "^8.7.0",
-    "eslint-config-airbnb-base": "^16.0.0"
+    "eslint-config-airbnb-base": "^15.0.0"
   },
   "repository": {
     "type": "git",
