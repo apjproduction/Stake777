@@ -1,26 +1,34 @@
 {
-  "name": "package.json",
+  "name": "stake777",
   "version": "1.0.0",
-  "description": "{",
-  "main": "ame\": \"stake777\",",
+  "description": "A staking pool for NFTs",
+  "main": "index.js",
   "scripts": {
-    "test": "1.0.0\","
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "staking",
+    "pool",
+    "NFT"
+  ],
+  "author": "Gianni (apjproduction@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "web3": "^1.5.2",
+    "ethereumjs-util": "^6.1.0",
+    "dotenv": "^16.0.0",
+    "axios": "^0.26.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^16.0.0"
   },
   "repository": {
     "type": "git",
-    "url": " {https://github.com/apjproduction/stake777"
+    "url": "git+https://github.com/apjproduction/stake777.git"
   },
-  "keywords": [
-    "\"test\":",
-    "\"echo",
-    "\\\"Error:",
-    "no",
-    "test",
-    "specified\\\"",
-    "&&",
-    "exit",
-    "1\""
-  ],
-  "author": "},",
-  "license": "MIT"
+  "bugs": {
+    "url": "https://github.com/apjproduction/stake777/issues"
+  },
+  "homepage": "https://github.com/apjproduction/stake777#readme"
 }
