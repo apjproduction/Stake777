@@ -30,7 +30,7 @@
   "bugs": {
     "url": "https://github.com/apjproduction/stake777/issues"
   },
-  "homepage": "http://github.com/apjproduction/stake777.git",
+  "homepage": "http://github.com/apjproduction/stake777",
   "publishConfig": {
     "registry": "https://www.npmjs.com/package/stake777"
   }
