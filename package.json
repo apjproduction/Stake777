@@ -1,6 +1,6 @@
 {
   "name": "@stake777/my-package",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "A staking pool for NFTs",
   "main": "index.js",
   "scripts": {
